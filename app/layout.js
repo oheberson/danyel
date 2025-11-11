@@ -1,15 +1,14 @@
-import './globals.css'
+import "./globals.css";
 
 export const metadata = {
-  title: 'N.O.T.A. - Unlock Your Guitar Skills',
-  description: 'Discover the N.O.T.A. method to unlock your acoustic guitar skills',
-}
+  title: "Danyel Pereira",
+  description: "Violão Acústico",
+};
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body>{children}</body>
     </html>
-  )
+  );
 }
-
